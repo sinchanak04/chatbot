@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Hi there", "Good morning", "Good evening", "Hola", "Is anyone there?", "How are you?"],
+      "responses": ["Hello!", "Hi there!", "Good to see you!", "How can I assist you today?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Talk to you soon"],
+      "responses": ["Goodbye!", "Take care!", "See you again soon!", "Bye! Stay safe."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Much appreciated", "Thanks for your help"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "Glad I could assist!"],
+      "context": [""]
+    },
+    {
+      "tag": "minimum wage what",
+      "patterns": ["What is minimum wage?", "Define minimum wage", "Can you explain minimum wage?", "Tell me about minimum wage"],
+      "responses": ["Minimum wage is the lowest legal amount that can be paid to workers, set by the government and may vary by region."]
+    },
+    {
+      "tag": "minimum wage law",
+      "patterns": ["Are there laws for minimum salary?", "Is there a standard wage for workers?", "Do labour laws mention minimum wage?"],
+      "responses": ["Yes, labour laws ensure a minimum wage to protect workers from exploitation."]
+    },
+    {
+      "tag": "labour rights overview",
+      "patterns": ["What are labour rights?", "Explain workers' rights", "Tell me about labour laws", "Give me an overview of labour rights"],
+      "responses": ["Labour rights include fair wages, safe working conditions, limited working hours, and the right to form unions."]
+    },
+    {
+      "tag": "working hours info",
+      "patterns": ["What are legal working hours?", "How many hours can an employee work?", "What is the limit for working per day?"],
+      "responses": ["Most labour laws limit working hours to 8 hours per day and 48 hours per week, with overtime allowed under specific rules."]
+    },
+    {
+      "tag": "overtime allowed",
+      "patterns": ["Is overtime allowed?", "Can I work extra hours?", "Is it legal to do overtime?"],
+      "responses": ["Yes, overtime is allowed under labour laws, but must be compensated fairly."]
+    },
+    {
+      "tag": "leave types",
+      "patterns": ["What types of leave are available?", "Explain annual leave and sick leave", "Can I take a paid holiday?"],
+      "responses": ["Employees are entitled to different types of leave including annual leave, sick leave, and in some cases, maternity or paternity leave."]
+    },
+    {
+      "tag": "leave holidays",
+      "patterns": ["Do employees get holidays?", "Are paid holidays a right?", "Is holiday leave allowed?"],
+      "responses": ["Yes, paid holidays are a basic labour right in many countries."]
+    },
+    {
+      "tag": "discrimination rights",
+      "patterns": ["What are my rights against discrimination?", "Is discrimination at the workplace illegal?", "Can I report harassment?"],
+      "responses": ["Workplace discrimination and harassment are illegal under labour laws. You have the right to file a complaint or report it."]
+    },
+    {
+      "tag": "treated unfairly",
+      "patterns": ["What if I'm treated unfairly at work?", "Someone is harassing me at work", "I'm being bullied at work"],
+      "responses": ["You are protected against unfair treatment based on race, gender, religion, or disability. You can report such behavior to HR or legal authorities."]
+    }
+  ]
+}
